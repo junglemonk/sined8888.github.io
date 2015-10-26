@@ -1,0 +1,28 @@
+.box{
+	margin: 0 auto;
+	width: 550px;
+	border: 1px black solid;
+}
+
+.box1{
+	
+	text-align: center;
+	margin: 20px;
+}
+
+.face{
+	width: 200px;
+}
+
+.box2, .box3, .box4{
+	margin: 20px;
+	padding-left: 30px;
+}
+
+.box3{
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+
+	
+
