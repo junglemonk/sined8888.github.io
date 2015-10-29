@@ -27,7 +27,7 @@ body {
 }
 
 .menu ul {
-	border: 1px solid black;
+	word-spacing: 60px;
 }
 
 .menu li {
@@ -54,7 +54,7 @@ body {
 
 .sidebar {
 	margin-top: 40px;
-	/*position: absolute; */
+	
 }
 
 .sidebar ul {
@@ -106,6 +106,10 @@ body {
 	
 }
 
+.footer ul {
+	word-spacing: 60px;
+}
+
 
 .footer li{
 	display: inline-block;
@@ -122,4 +126,9 @@ body {
 
 #undr {
 	text-decoration: underline;
+}
+
+#space{
+	word-spacing: normal;
+	padding-left: 200px;
 }
