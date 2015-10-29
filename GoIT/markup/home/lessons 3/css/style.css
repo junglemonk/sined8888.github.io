@@ -27,14 +27,13 @@ body {
 }
 
 .menu ul {
-	word-spacing: 60px;
-
-
+	
 }
 
 .menu li {
 	display: inline-block;
 	list-style: none;
+	width: 15%;
 
 }
 
@@ -49,6 +48,7 @@ body {
 
 .menu a:hover {
 	background: #393939;
+	border: 1px solid white;
 }
 
 .logo{
@@ -68,6 +68,7 @@ body {
 
 .sidebar li {
 	list-style: none;
+
 }
 
 
@@ -92,7 +93,7 @@ body {
 }
 
 
-.text{
+.text {
 	clear: both;
 	float: right;
 	width: 600px;
@@ -102,25 +103,19 @@ body {
 }
 
 
-.footer{
+.footer {
 	clear: both;
 	background: #c8c8c8;
-
-
-	
-}
-
-.footer ul {
-	word-spacing: 60px;
 }
 
 
-.footer li{
+.footer li {
 	display: inline-block;
+	width: 15%;
 }
 
 
-.footer a{
+.footer a {
 	padding: 10px;
 	display: block;
 	height: 30px;
@@ -132,7 +127,7 @@ body {
 	text-decoration: underline;
 }
 
-#space{
-	word-spacing: normal;
-	padding-left: 200px;
+#space {
+	padding-left: 120px;
+	width: 20%;
 }
