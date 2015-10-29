@@ -12,7 +12,7 @@ body {
 	height: 1000px;
 	background: #ffffff;
 	box-shadow: 0px 0px 5px 0px rgba(77,76,76,1);
-	font-family: Arial, sans-serif;
+	font-family: Myriad Pro, Arial, sans-serif;
 }
 .header {
 	padding-top: 50px;
@@ -22,16 +22,23 @@ body {
 	background: #4d4c4c;
 }
 .menu ul {
+	font-size: 0;
+	line-height: 0;
+	letter-spacing: -1px;
 	
 }
 .menu li {
 	display: inline-block;
 	list-style: none;
 	width: 15%;
+	font-size: 14px;
+	line-height: normal;
+	letter-spacing: normal;
 }
 .menu a {
 	display: block;
 	height: 30px;
+	line-height: 2em;
 	text-decoration: none;
 	padding: 10px;
 	color: white;
@@ -87,6 +94,7 @@ body {
 	padding: 10px;
 	display: block;
 	height: 30px;
+	line-height: 2em;
 	color: black;
 	text-decoration: none;
 }
