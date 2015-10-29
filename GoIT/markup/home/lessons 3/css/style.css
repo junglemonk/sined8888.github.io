@@ -11,7 +11,7 @@ body {
 	margin: 0 auto;
 	padding: 0 48px;
 	width: 1064px;
-	height: 960px;
+	height: 1000px;
 	background: #ffffff;
 	box-shadow: 0px 0px 5px 0px rgba(77,76,76,1);
 	font-family: Arial, sans-serif;
@@ -28,11 +28,14 @@ body {
 
 .menu ul {
 	word-spacing: 60px;
+
+
 }
 
 .menu li {
 	display: inline-block;
 	list-style: none;
+
 }
 
 .menu a {
@@ -41,7 +44,7 @@ body {
 	text-decoration: none;
 	padding: 10px;
 	color: white;
-	/*word-spacing: 20px;*/
+	
 }
 
 .menu a:hover {
@@ -102,6 +105,7 @@ body {
 .footer{
 	clear: both;
 	background: #c8c8c8;
+
 
 	
 }
