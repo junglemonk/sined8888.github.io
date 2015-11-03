@@ -13,6 +13,7 @@ body{
 	margin: 0 auto;
 	width: 1009px;
 	height: 991px;
+	box-shadow: 0px 0px 4px 2px rgba(77,76,76,1);
 }
 .contacts{
 	float: right;
@@ -45,26 +46,27 @@ body{
 }
 .menu{
 	height: 40px;
+	width: 100%;
 	background: #323232;
 }
 .menu ul li{
 	float: left;
 	list-style: none;
 	position: relative;
-	height: 40px;
 }
+
+
 .menu li:hover .dropdown{
 	display: block;
 }
-.menu ul li a:hover{
-	background: #000;
-}
+
 .menu ul li a{
 	text-decoration: none;
 	color: white;
 	line-height: 40px;
 	padding: 0 36px;
 	display: block;
+	height: 40px;
 }
 .menu .dropdown{
 	position: absolute;
