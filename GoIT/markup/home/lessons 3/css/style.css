@@ -11,7 +11,7 @@ body {
 	margin: 0 auto;
 	padding: 0 48px;
 	width: 1064px;
-	height: 1000px;
+	min-height: 1000px;
 	background: #ffffff;
 	box-shadow: 0 0 5px 0 rgba(77,76,76,1);
 	font-family: Myriad Pro, Arial, sans-serif;
