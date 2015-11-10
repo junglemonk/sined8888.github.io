@@ -3,11 +3,14 @@
 	padding: 0;
 }
 
-body{
+body, html{
 	background: url(../img/222.png) no-repeat ;
-	width: 1280px;
-	height: 1060px;
+	/*width: 1280px;
+	height: 1060px;*/
+	width: 100%;
+	height: 100%;
 	font-family: Arial, sans-serif;
+	background-size: cover;
 }
 
  /*wrapper section begin*/
@@ -15,8 +18,10 @@ body{
 .wrapper{
 	background: url(../img/333.png);
 	margin: 0 auto;
-	width: 999px;
-	height: 991px;
+	/*width: 999px;
+	height: 991px;*/
+	width: 80%;
+
 	box-shadow: 0 0 4px 2px rgba(77,76,76,1);
 }
 
@@ -74,6 +79,7 @@ body{
 	display: block;
 	position: relative;
 	z-index: 2;
+	width: 100%;
 }
 
 /*menu section begin*/
@@ -141,7 +147,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', end
 
 .content{
 	overflow: hidden;
-    height: 501px;
+    /*height: 501px;*/
+    height: 493px
 }
 
 .info{
@@ -165,6 +172,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', end
 .box{
 	float: left;
 	width: 578px;
+	width: 573px;
 	margin-bottom: -20000px;
 	padding-bottom: 20000px;
 	background: #fff;
@@ -193,7 +201,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', end
 
 .footer p{
 	text-align: center;
-    margin-top: 20px;
+    padding: 10px;
     color: #cee3ec;
     
 }
