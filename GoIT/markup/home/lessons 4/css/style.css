@@ -17,6 +17,7 @@ body, html{
 	width: 80%;
 	box-shadow: 0 0 4px 2px rgba(77,76,76,1);
 	background-size: cover;
+	
 }
 
 .header{
@@ -37,6 +38,16 @@ body, html{
 	font-weight: bold;
 }
 
+.logo{
+	background: url(../img/0000.jpg);
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	width: 282px;
+	height: 164px;
+	
+}
+
 .clearfix:after{
 	content: '';
 	clear: both;
@@ -45,8 +56,8 @@ body, html{
 
 .name {
 	position: absolute;
-    top: 110px;
-    left: 80px;
+    top: 150px;
+    left: 125px;
     font-size: 12px;
     color: #128aa7;
 }
@@ -66,28 +77,22 @@ body, html{
 	padding: 0 5px 0 10px;
 	font-size: 10px;
 	text-align: center;
-	/*position: relative;*/
 	width: 52px;
 	
 }
 
-/*.sizebar  img{
-	position: absolute;
-	top: 44;
-	left: 10px;
-}*/
 
 .foto img{
 	display: block;
 	position: relative;
-	z-index: 2;
+	z-index: 3;
 	width: 100%;
 }
 
 .menu{
 	list-style: none;
 	position: relative;
-	z-index: 1;
+	z-index: 4;
 	box-shadow: 0 0 4px 1px rgba(77,76,76,1);
 	border-bottom: 1px solid black;
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#373737+0,303030+100,7db9e8+100 */
