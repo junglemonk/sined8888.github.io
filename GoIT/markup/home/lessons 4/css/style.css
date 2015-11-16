@@ -64,6 +64,8 @@ body, html{
 
 .country{
 	margin: 35px 0 10px 0;
+	position: relative;
+	z-index: 10;
 }
 
 .sizebar li{
