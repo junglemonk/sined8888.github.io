@@ -211,6 +211,10 @@ body{
 
 }
 
+.line{
+	margin: 0 5px 0 5px;
+}
+
 .OU p:after{
 	content: '';
 	display: inline-block;
