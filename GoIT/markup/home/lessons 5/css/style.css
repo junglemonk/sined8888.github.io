@@ -140,18 +140,13 @@ body {
 	font-weight: normal;
 }
 
-.form {
+form {
 	margin: 0 auto;
 	width: 274px;
 	padding-bottom: 10px;
-
 }
 
-.form1,
-.form2,
-.form3,
-.form4,
-.form5 {
+.form {
 	margin-top: 15px;
 	display: block;
 	box-sizing: border-box;
@@ -203,6 +198,13 @@ body {
     background: -webkit-linear-gradient(top,  #4aa5d7 0%,#3281c7 100%); 
     background: linear-gradient(to bottom,  #4aa5d7 0%,#3281c7 100%); 
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4aa5d7', endColorstr='#3281c7',GradientType=0 ); 
+}
+
+.button:hover{
+	background: #395797;
+	border: 1px solid #395797;
+    border-top: 1px solid #395797;
+    color: #000;
 }
 
  .OU {
