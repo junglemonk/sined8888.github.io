@@ -32,16 +32,6 @@ body {
 	clear: both;
 }
 
-.menu li a~span {
- 	width: 21px;
- 	height: 23px;
-	background: url(../img/12345.png) no-repeat;
-	position: absolute;
-	top: 7px;
-	right: 365px;	
-}
-
-
 .menu {
 	list-style: none;
 	background: #074f8d ;
@@ -70,14 +60,25 @@ body {
 	color: #fff;	
 }
 
-.fon{
+
+.menu li:nth-child(2) a:before {
+	content: '';
+	width: 21px;
+ 	height: 23px;
+	background: url(../img/12345.png) no-repeat;
+	position: absolute;
+	top: 7px;
+	right: 365px;	
+}
+
+.fon {
 	width: 560px;
 	height: 60px;
-	margin: 300px auto 2px;
+	margin: 10% auto 2px;
 	background: rgba(0, 0, 0, 0.5);
 }
 
-.fon p {
+.fon {
 	text-align: center;
 	line-height: 60px;
 	font-size: 24px;
@@ -117,6 +118,11 @@ body {
 	font-weight: bold;
 }
 
+.face:hover {
+	background: #395797;
+    color: #fff;
+}
+
 .login {
 	font-weight: bold;
 	width: 234px;
@@ -136,6 +142,12 @@ body {
 	margin-left: -5px;
 }
 
+
+.login:hover {
+	background: #395797;
+    color: #fff;
+}
+
 .login span {
 	font-weight: normal;
 }
@@ -147,6 +159,7 @@ form {
 }
 
 .form {
+	color: #fff;
 	margin-top: 15px;
 	display: block;
 	box-sizing: border-box;
@@ -204,7 +217,7 @@ form {
 	background: #395797;
 	border: 1px solid #395797;
     border-top: 1px solid #395797;
-    color: #000;
+    color: #fff;
 }
 
  .OU {
@@ -216,7 +229,7 @@ form {
 	margin: 0 5px 0 5px;
 }
 
-.OU p:after {
+.OU:after {
 	content: '';
 	display: inline-block;
 	width: 123px;
@@ -229,8 +242,7 @@ form {
     box-shadow: 0px -1px 0px 0px rgba(102,102,102,1);
 }
 
-
-.OU p:before{
+.OU:before{
 	content: '';
 	display: inline-block;
 	width: 123px;
