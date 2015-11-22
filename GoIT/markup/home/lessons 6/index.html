@@ -6,15 +6,16 @@
       <link rel="stylesheet" href="css/style.css">
    </head>
    <body>
-      <div class="wrapper">
+   <div class="wrapper">
+      <div class="wrapper_1">
          <header>
          <div class="clearfix">
          <div class="phone">
             <span>(044)123-45-67</span>
             <span>(044)567-89-10</span>
    
-            <form action="">
-               <input clss="form_img" type="text" placeholder="логин">
+            <form class="form_header" action="">
+                <input type="text" placeholder="логин">
                 <input type="text" placeholder="пароль">
                 <span>вход</span>
                 <span>регистрация</span>
@@ -33,14 +34,15 @@
                   <li><a href="#">Товаров: 0</a></li>
                </ul>
                <ul class="menu_header_1 clearfix">
-                  <li><a href="#">Контакты</a></li>
-                  <li><a href="#">Статьи</a></li>
-                  <li><a href="#">Доставка</a></li>
-                  <li><a href="#">Оплата</a></li>
                   <li><a href="#">О компании</a></li>
+                  <li><a href="#">Оплата</a></li>
+                  <li><a href="#">Доставка</a></li>
+                  <li><a href="#">Статьи</a></li>
+                  <li><a href="#">Контакты</a></li>
                </ul>
             </nav>
          </header>
+         <div class="content clearfix">
          <div class="menu_left">
             <p class="catalog"><span></span>КАТАЛОГ ПРОДУКЦИИ</p>
             <p class="shina"><span></span>ШИНЫ</p>
@@ -73,23 +75,23 @@
                   <div class="img_1">
                      <img src="img/shina.png" alt="">
                   </div>
-                  <h3>100.00 грн.</h3>
+                  <h3>90.00 грн.</h3>
                </div>
                <div class="img_2">
-                  <h2>Goodyear</h2>
-                  <p>Ultra Grip Extreme</p>
+                  <h2>Nokian</h2>
+                  <p>Hakkapeliitta R</p>
                   <div class="img_1">
                      <img src="img/shina.png" alt="">
                   </div>
-                  <h3>100.00 грн.</h3>
+                  <h3>115.00 грн.</h3>
                </div>
                <div class="img_2">
-                  <h2>Goodyear</h2>
-                  <p>Ultra Grip Extreme</p>
+                  <h2>Hankook</h2>
+                  <p>K 708 155/65 R14</p>
                   <div class="img_1">
                      <img src="img/shina.png" alt="">
                   </div>
-                  <h3>100.00 грн.</h3>
+                  <h3>393.00 грн.</h3>
                </div>
             </div>
             <div class="section_2">
@@ -99,23 +101,23 @@
                   <div class="img_1">
                      <img src="img/shina.png" alt="">
                   </div>
-                  <h3>100.00 грн.</h3>
+                  <h3>90.00 грн.</h3>
                </div>
                <div class="img_2">
-                  <h2>Goodyear</h2>
-                  <p>Ultra Grip Extreme</p>
+                  <h2>Nokian</h2>
+                  <p>Hakkapeliitta R</p>
                   <div class="img_1">
                      <img src="img/shina.png" alt="">
                   </div>
-                  <h3>100.00 грн.</h3>
+                  <h3>115.00 грн.</h3>
                </div>
                <div class="img_2">
-                  <h2>Goodyear</h2>
-                  <p>Ultra Grip Extreme</p>
+                  <h2>Hankook</h2>
+                  <p>K 708 155/65 R14</p>
                   <div class="img_1">
                      <img src="img/shina.png" alt="">
                   </div>
-                  <h3>100.00 грн.</h3>
+                  <h3>393.00 грн.</h3>
                </div>
             </div>
             <div class="section_3">
@@ -125,36 +127,78 @@
                   <div class="img_1">
                      <img src="img/shina.png" alt="">
                   </div>
-                  <h3>100.00 грн.</h3>
+                  <h3>90.00 грн.</h3>
                </div>
                <div class="img_2">
-                  <h2>Goodyear</h2>
-                  <p>Ultra Grip Extreme</p>
+                  <h2>Nokian</h2>
+                  <p>Hakkapeliitta R</p>
                   <div class="img_1">
                      <img src="img/shina.png" alt="">
                   </div>
-                  <h3>100.00 грн.</h3>
+                  <h3>115.00 грн.</h3>
                </div>
                <div class="img_2">
-                  <h2>Goodyear</h2>
-                  <p>Ultra Grip Extreme</p>
+                  <h2>Hankook</h2>
+                  <p>K 708 155/65 R14</p>
                   <div class="img_1">
                      <img src="img/shina.png" alt="">
                   </div>
-                  <h3>100.00 грн.</h3>
+                  <h3>393.00 грн.</h3>
                </div>
             </div>
          </div>
          <div class="menu_right">
             <p class="catalog"><span></span>КАТАЛОГ ПРОДУКЦИИ</p>
-            <p class="shina"><span></span>ШИНЫ</p>
-            <ul class="menu_catalog">
+            <p class="shina_right"><span></span>ШИНЫ</p>
+            <form class="form_menu_right" action="">
+            <div>
+               <input class="checkbox_menu_right" type="checkbox"  id="number_1">
+               <label for="number_1">Бренд 1</label>
+            </div>
+            <div>
+               <input class="checkbox_menu_right" type="checkbox"  id="number_2">
+               <label for="number_2">Бренд 2</label>
+            </div> 
+            <div>
+               <input class="checkbox_menu_right" type="checkbox"  id="number_3">
+               <label for="number_3">Бренд 3</label>
+            </div>
+            </form>
+
+            <p class="shina_right"><span></span>ДИСКИ</p>
+            <form class="form_menu_right" action="">
+            <div>
+               <input class="checkbox_menu_right" type="checkbox"  id="number_4">
+               <label for="number_4">Бренд 1</label>
+            </div>
+            <div>
+               <input class="checkbox_menu_right" type="checkbox"  id="number_5">
+               <label for="number_5">Бренд 2</label>
+            </div> 
+            <div>
+               <input class="checkbox_menu_right" type="checkbox"  id="number_6">
+               <label for="number_6">Бренд 3</label>
+            </div>
+            <input class="button" type="submit" value="ВЫБРАТЬ">
+            </form>
+            <!-- <ul class="menu_catalog">
                <li><a href="#">Наименование 1</a></li>
                <li><a href="#">Наименование 2</a></li>
                <li><a href="#">Наименование 3</a></li>
                <li><a href="#">Наименование 4</a></li>
-            </ul>
+            </ul> -->
+         </div>
+         </div>
+         <div class="pri_footer"></div>
+         <div class="footer">
+         <div>
+            <a href="">О компании </a>|
+            <a href="">Доставка </a>|
+            <a href="">Статьи </a>|
+            <a href="">Контакты </a>|
+         </div>
          </div>
       </div>
+    </div>  
    </body>
 </html>
