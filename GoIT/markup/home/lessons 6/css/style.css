@@ -32,7 +32,7 @@ body {
 	float: left;
 }
 
-.phone>span {
+.phone > span {
 	font-size: 18px;
 	color: #5e696d;
 }
@@ -86,7 +86,7 @@ body {
 	left: 6px;
 }
 
-.form_header>input {
+.form_header > input {
 	width: 113px;
 }
 
@@ -111,16 +111,12 @@ input::-webkit-input-placeholder{
 	height: 237px; 
 }
 
-nav {
-	margin-top: 8px;
-}
-
 .menu_header_1 {
-    background: #1e5799; /* Old browsers */
-    background: -moz-linear-gradient(top,  #1e5799 0%, #262a2d 0%, #303030 100%, #060707 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  #1e5799 0%,#262a2d 0%,#303030 100%,#060707 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  #1e5799 0%,#262a2d 0%,#303030 100%,#060707 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#060707',GradientType=0 ); /* IE6-9 */
+    background: #1e5799; 
+    background: -moz-linear-gradient(top,  #1e5799 0%, #262a2d 0%, #303030 100%, #060707 100%); 
+    background: -webkit-linear-gradient(top,  #1e5799 0%,#262a2d 0%,#303030 100%,#060707 100%); 
+    background: linear-gradient(to bottom,  #1e5799 0%,#262a2d 0%,#303030 100%,#060707 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#060707',GradientType=0 ); 
 	padding-left: 136px;
 	border-radius: 5px;	
 	border-top: 1px solid #3c4367;
@@ -147,6 +143,10 @@ nav {
 	text-transform: uppercase;
 }
 
+.menu_header_2 {
+	margin-top: 8px;
+}
+
 
 .menu_header_1 li a:hover {
 	border-radius: 15px;
@@ -166,6 +166,10 @@ nav {
 	text-decoration: none;
 	padding: 0 16px;
 	line-height: 32px;		
+}
+
+.menu_header_2 li a span {
+	color: #0d5a8f;
 }
 
 .menu_header_2 li:nth-child(2) a:before {
@@ -374,10 +378,10 @@ nav {
 
 .checkbox_menu_right {
 	margin: 0 10px;
-	-webkit-box-shadow: -1px -1px 2px 1px rgba(49,75,94,1);
--moz-box-shadow: -1px -1px 2px 1px rgba(49,75,94,1);
-box-shadow: -1px -1px 2px 1px rgba(49,75,94,1);
- color: #2a4457;
+    -webkit-box-shadow: -1px -1px 2px 1px rgba(49,75,94,1);
+    -moz-box-shadow: -1px -1px 2px 1px rgba(49,75,94,1);
+    box-shadow: -1px -1px 2px 1px rgba(49,75,94,1);
+    color: #2a4457;
 }
 
 .button {

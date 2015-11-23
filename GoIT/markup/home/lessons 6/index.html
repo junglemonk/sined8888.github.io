@@ -13,7 +13,7 @@
                   <div class="phone">
                      <span>(044)123-45-67</span>
                      <span>(044)567-89-10</span>
-                     <form class="form_header" action="">
+                     <form class="form_header" action="action.php" method="post">
                         <input type="text" placeholder="логин">
                         <input type="text" placeholder="пароль">
                         <a class="login" href="">вход</a>
@@ -27,8 +27,8 @@
                </div>
                <nav>
                   <ul class="menu_header_2">
-                     <li><a href="#">На сумму: 0,00 грн</a></li>
-                     <li><a href="#">Товаров: 0</a></li>
+                     <li><a href="#">На сумму: <span>0,00 грн</span></a></li>
+                     <li><a href="#">Товаров: <span>0</span></a></li>
                   </ul>
                   <ul class="menu_header_1 clearfix">
                      <li><a href="#">О компании</a></li>
@@ -43,29 +43,35 @@
                <div class="menu_left">
                   <p class="catalog">КАТАЛОГ ПРОДУКЦИИ</p>
                   <p class="shina">ШИНЫ</p>
-                  <ul class="menu_catalog">
-                     <li><a href="#">Наименование 1</a></li>
-                     <li><a href="#">Наименование 2</a></li>
-                     <li><a href="#">Наименование 3</a></li>
-                     <li><a href="#">Наименование 4</a></li>
-                  </ul>
+                  <nav>
+                     <ul class="menu_catalog">
+                        <li><a href="#">Наименование 1</a></li>
+                        <li><a href="#">Наименование 2</a></li>
+                        <li><a href="#">Наименование 3</a></li>
+                        <li><a href="#">Наименование 4</a></li>
+                     </ul>
+                  </nav>
                   <p class="shina">ДИСКИ</p>
-                  <ul class="menu_catalog">
-                     <li><a href="#">Наименование 1</a></li>
-                     <li><a href="#">Наименование 2</a></li>
-                     <li><a href="#">Наименование 3</a></li>
-                     <li><a href="#">Наименование 4</a></li>
-                  </ul>
+                  <nav>
+                     <ul class="menu_catalog">
+                        <li><a href="#">Наименование 1</a></li>
+                        <li><a href="#">Наименование 2</a></li>
+                        <li><a href="#">Наименование 3</a></li>
+                        <li><a href="#">Наименование 4</a></li>
+                     </ul>
+                  </nav>
                   <p class="shina">БОЛТЫ</p>
-                  <ul class="menu_catalog">
-                     <li><a href="#">Наименование 1</a></li>
-                     <li><a href="#">Наименование 2</a></li>
-                     <li><a href="#">Наименование 3</a></li>
-                     <li><a href="#">Наименование 4</a></li>
-                  </ul>
+                  <nav>
+                     <ul class="menu_catalog">
+                        <li><a href="#">Наименование 1</a></li>
+                        <li><a href="#">Наименование 2</a></li>
+                        <li><a href="#">Наименование 3</a></li>
+                        <li><a href="#">Наименование 4</a></li>
+                     </ul>
+                  </nav>
                </div>
                <div class="menu_center">
-                  <div class="section_1">
+                  <section>
                      <div class="img_2">
                         <h2>Goodyear</h2>
                         <p>Ultra Grip Extreme</p>
@@ -96,8 +102,8 @@
                            <h3>393.00 грн.</h3>
                         </div>
                      </div>
-                  </div>
-                  <div class="section_2">
+                  </section>
+                  <section>
                      <div class="img_2">
                         <h2>Goodyear</h2>
                         <p>Ultra Grip Extreme</p>
@@ -128,8 +134,8 @@
                            <h3>393.00 грн.</h3>
                         </div>
                      </div>
-                  </div>
-                  <div class="section_3">
+                  </section>
+                  <section>
                      <div class="img_2">
                         <h2>Goodyear</h2>
                         <p>Ultra Grip Extreme</p>
@@ -140,6 +146,8 @@
                            <h3>90.00 грн.</h3>
                         </div>
                      </div>
+                  </section>
+                  <section>
                      <div class="img_2">
                         <h2>Nokian</h2>
                         <p>Hakkapeliitta R</p>
@@ -150,6 +158,8 @@
                            <h3>115.00 грн.</h3>
                         </div>
                      </div>
+                  </section>
+                  <section>
                      <div class="img_2">
                         <h2>Hankook</h2>
                         <p>K 708 155/65 R14</p>
@@ -160,12 +170,12 @@
                            <h3>393.00 грн.</h3>
                         </div>
                      </div>
-                  </div>
+                  </section>
                </div>
                <div class="menu_right">
                   <p class="catalog_right">БРЕНДЫ</p>
                   <p class="shina_right">ШИНЫ</p>
-                  <form class="form_menu_right" action="">
+                  <form class="form_menu_right" action="action.php" method="post">
                      <div>
                         <input class="checkbox_menu_right" type="checkbox"  id="number_1">
                         <label for="number_1">Бренд 1</label>
@@ -180,7 +190,7 @@
                      </div>
                   </form>
                   <p class="disck_right">ДИСКИ</p>
-                  <form class="form_menu_right" action="">
+                  <form class="form_menu_right" action="action.php" method="post">
                      <div>
                         <input class="checkbox_menu_right" type="checkbox"  id="number_4">
                         <label for="number_4">Бренд 1</label>
@@ -197,16 +207,18 @@
                   </form>
                </div>
             </div>
-            <div class="pri_footer"></div>
-            <div class="footer">
-               <div>
-                  <a href="">О компании </a>|
-                  <a href="">Доставка </a>|
-                  <a href="">Статьи </a>|
-                  <a href="">Контакты </a>|
+            <footer>
+               <div class="pri_footer"></div>
+               <div class="footer">
+                  <div>
+                     <a href="">О компании </a>|
+                     <a href="">Доставка </a>|
+                     <a href="">Статьи </a>|
+                     <a href="">Контакты </a>|
+                  </div>
+                  <p>Создание сайтов&copy;Giobal Vision</p>
                </div>
-               <p>Создание сайтов&copy;Giobal Vision</p>
-            </div>
+            </footer>
          </div>
       </div>
    </body>
