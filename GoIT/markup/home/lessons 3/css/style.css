@@ -2,63 +2,73 @@
 	margin: 0;
 	padding: 0;
 }
+
 body {
 	background: #f9f9f9;
 }
+
 .vrapper {
 	margin: 0 auto;
 	padding: 0 48px;
 	width: 1064px;
-	height: 1000px;
+	min-height: 1000px;
 	background: #ffffff;
-	box-shadow: 0px 0px 5px 0px rgba(77,76,76,1);
+	box-shadow: 0 0 5px 0 rgba(77,76,76,1);
 	font-family: Myriad Pro, Arial, sans-serif;
 }
+
 .header {
 	padding-top: 50px;
 }
+
+.clearfix:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+
 .menu {
 	margin-top: 40px;
-	background: #4d4c4c;
+	background: #4d4c4c;	
 }
-.menu ul {
-	font-size: 0;
-	line-height: 0;
-	letter-spacing: -1px;
+
+.menu li {
+	float: left;
+	list-style: none;
+	border-right: 1px solid transparent;
+	border-left: 1px solid transparent;
+}
+
+.menu a{
+	text-decoration: none;
+	padding: 5px 40px;
+	line-height: 28px;
+	color: white;
+	display: block;
 	
 }
-.menu li {
-	display: inline-block;
-	list-style: none;
-	width: 15%;
-	font-size: 14px;
-	line-height: normal;
-	letter-spacing: normal;
-}
-.menu a {
-	display: block;
-	height: 30px;
-	line-height: 2em;
-	text-decoration: none;
-	padding: 10px;
-	color: white;
-}
+
 .menu li:hover {
 	background: #393939;
-	border: 1px solid white;
-}.logo{
+	border-right: 1px solid gray;
+	border-left: 1px solid gray;
+	
+}
+
+.content img{
 	float: right;
 }
+
 .sidebar {
 	margin-top: 40px;
-}
-.sidebar ul {
 	width: 240px;
 	height: 180px;
 }
+
 .sidebar li {
 	list-style: none;
 }
+
 .sidebar a {
 	text-decoration: none;
 	display: block;
@@ -67,14 +77,17 @@ body {
 	border-bottom: none;
 	color: black;
 }
+
 #brd {
 	border-bottom: 1px solid #c8c8c8; 
 }
+
 .sidebar a:hover {
 	color: white;
 	background-color: #c8c8c8;
 }
-.text {
+
+.content p {
 	clear: both;
 	float: right;
 	width: 670px;
@@ -82,26 +95,31 @@ body {
 	line-height: 20px;
 	margin-bottom: 40px;
 }
+
 .footer {
-	clear: both;
 	background: #c8c8c8;
 }
+
 .footer li {
-	display: inline-block;
-	width: 15%;
+	float: left;
+	list-style: none;
+
 }
+
 .footer a {
-	padding: 10px;
-	display: block;
-	height: 30px;
-	line-height: 2em;
+	padding: 5px 40px;
+	line-height: 28px;
 	color: black;
 	text-decoration: none;
+	display: block;
 }
+
 #undr {
 	text-decoration: underline;
 }
+
 #space {
-	padding-left: 180px;
-	width: 20%;
+	padding-left: 240px;
+	line-height: 40px;
 }
+
